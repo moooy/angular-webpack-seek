@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e1",
+    "resourceId": "dff",
+    "title": "子菜单1",
+    "imageURL": "images/tianjia.png",
+    "templateId":"ChartComponent",
+    "templatePath":"./app/components/chart/chart.component.ts",
+    "children":[
+      {
+        "id": "ee1",
+        "resourceId": "asdf",
+        "title": "子菜单3",
+        "imageURL": "images/tianjia.png",
+        "templateId":"ToolbarTableComponent",
+        "templatePath":"./app/components/toolbar-table/toolbar-table.component.ts",
+        "children":[]
+      }
+    ]
+  },
+  {
+    "id": "e2",
+    "resourceId": "fffa",
+    "title": "子菜单2",
+    "imageURL": "images/tianjia.png",
+    "templateId":"FooterComponent",
+    "templatePath":"./app/components/footer/footer.component.ts",
+    "children":[
+      {
+        "id": "ee2",
+        "resourceId": "rs",
+        "title": "ee2",
+        "imageURL": "images/tianjia.png",
+        "templateId":"MenuComponent",
+        "templatePath":"./app/components/menu/menu.component.ts",
+        "children":[
+          {
+            "id": "eee2",
+            "resourceId": "azcv",
+            "title": "eee2",
+            "imageURL": "images/tianjia.png",
+            "templateId":"MenuComponent",
+            "templatePath":"./app/components/menu/menu.component.ts",
+            "children":[]
+          }
+        ]
+      }
+    ]
+  }
+]

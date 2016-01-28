@@ -1,0 +1,108 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.caidan img{
+    cursor: pointer;
+}
+.ue_left_nav{height: 100%;/*padding-top:50px;*/background: #16232a;}
+.ue_left_nav .leftNav{padding-top:50px;}
+.ue_left_nav a {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    color: #FFF;
+    line-height: 60px;
+}
+
+.ue_left_nav .leftNav .one {
+    overflow: hidden;
+}
+
+.ue_left_nav .leftNav .one .icon {
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.ue_left_nav .leftNav .one .icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.ue_left_nav .leftNav .one .wenzi {
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.ue_left_nav .leftNav .one .button {
+    margin-right: 10px;
+    float: right;
+    margin-top: 22px;
+}
+
+.ue_left_nav .leftNav .one .button img {
+    width: 18px;
+    height: 18px;
+}
+
+.ue_left_nav .leftNav .one .two_content .two {
+    overflow: hidden;
+}
+
+.ue_left_nav .leftNav .one .two_content .two a {
+    margin-left: 10px;
+}
+
+.ue_left_nav .leftNav .one .two_content .two a img {
+    margin-top: 4px;
+}
+
+.ue_left_nav .leftNav .one .two_content .two .icon.left {
+    margin-left: 26px;
+}
+
+.ue_left_nav .leftNav .one .two_content .two .icon.left img {
+    width: 14px;
+    height: 14px;
+}
+
+.ue_left_nav .leftNav .one .two_content .two .three_content .three a {
+    margin-left: 50px;
+}
+.ue_left_nav .leftNav .one .two_content .two .three_content .three{
+    background: inherit;
+}
+.ue_left_nav .leftNav .one .two_content .two .three_content .three.active {
+    background-color: #0a938a;
+}
+
+.ue_left_nav .leftNav .one .two_content .two .three_content .three a:hover {
+    color: #fff;
+}
+
+.ue_left_nav .leftNav .one a:hover {
+    color: #0a938a;
+}
+
+.ue_left_nav .leftNav .one .two_content, .one .two .three_content {
+    height: 0;
+    display: block;
+}
+
+.ue_left_nav .leftNav .one.active .two_content,.one .two.active .three_content {
+    height: auto;
+}
+.ue_left_nav.yayaya .leftNav .two_content{ display: none !important;}
+.ue_left_nav.yayaya .leftNav .wenzi{ display: none !important;}
+.ue_left_nav.yayaya .leftNav .button{ display: none !important;}
+.ue_left_nav.yayaya { width: 60px;}
+.ue_left_nav .caidan{ float: right; margin: 16px 20px 0 0;}

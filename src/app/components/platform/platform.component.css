@@ -1,0 +1,14 @@
+.main-container{
+    position: absolute;
+    left: 200px;
+    top:0;
+    bottom:0;
+    right: 0;
+}
+.menu-container{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}

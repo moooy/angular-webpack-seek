@@ -1,0 +1,27 @@
+body,dl,dd{margin:0;}
+a{text-decoration:none;}
+img{border:none; 
+    display:block;
+}
+input{
+    border:none; 
+    margin:0; 
+    padding:0;
+}
+.ue_top_nav .left{
+    overflow:hidden; 
+    float:left;
+}
+.ue_top_nav .biaoshi{
+    overflow:hidden; 
+    float:left; 
+    margin-left:20px;
+}
+.ue_top_nav .biaoshi .logo{float:left; height:32px; width:72px; margin-top:5px; margin-bottom:23px; margin-right:10px;}
+.ue_top_nav .biaoshi .pingtai{line-height:60px; font-size:14px; font-family:'微软雅黑'; font-weight:bold; color:#0a938a; float:left;}
+.ue_top_nav .nav_content{overflow:hidden; padding-left:30px; float:left;}
+.ue_top_nav .nav_content a{line-height:60px; font-size:14px; font-family:'微软雅黑'; color:#FFF; padding:0 25px; float:left;}
+.ue_top_nav .nav_content .router-link-active{color:#0a938a; background-image:url(images/current.png); background-repeat:no-repeat; background-position:bottom;}
+.ue_top_nav .right{margin-right:20px; float:right; overflow:hidden;}
+.ue_top_nav .right a{float:right; margin-left:20px; line-height:60px; font-size:14px; font-family:'微软雅黑'; color:#FFF;}
+.ue_top_nav .right img{ margin:20px 0; width:20px; height:20px;}

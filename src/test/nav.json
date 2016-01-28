@@ -1,0 +1,20 @@
+[
+  {
+    "id": "item1",
+    "resourceId": "dictionary",
+    "title": "平台运营",
+    "imageURL": "images/tianjia.png",
+    "templateId":"PlatformComponent",
+    "templatePath":"./app/components/platform/platform.component.ts",
+    "children":[]
+  },
+  {
+    "id": "item2",
+    "resourceId": "dictionary2",
+    "title": "平台运营2",
+    "imageURL": "images/tianjia.png",
+    "templateId":"MenuComponent",
+    "templatePath":"./app/components/menu/menu.component.ts",
+    "children":[]
+  }
+]

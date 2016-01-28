@@ -1,0 +1,22 @@
+<div class="modal" id="tableModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="ue_addkuang">
+              <div class="addkuang_head">
+                  <img class="add_icon" src="images/add.png">
+                  <span class="biaoti">{{contents.title}}</span>
+                  <img class="close_icon" src="images/close.png" data-dismiss="modal" >
+              </div>
+              <div class="addkuang_content">
+                  <ul class="add_neirong" >
+                      <li class="one" *ngFor="#opinion of contents.opinions">
+                          <span class="mingcheng">{{opinion.label}}</span>
+                          <span class="bitianxiang">*</span>
+                          <input [type]="opinion.type" [placeholder]="'请输入'+opinion.label">
+                      </li>
+                  </ul>
+              </div>
+              <div class="ue_button">
+                  <button class="queding" (click)="onsubmit()">确定</button>
+                  <button class="quxiao" data-dismiss="modal">取消</button>
+              </div>
+          </div>
+</div>

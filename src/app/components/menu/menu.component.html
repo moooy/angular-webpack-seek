@@ -1,0 +1,35 @@
+<!--伸缩菜单-->
+<div class="ue_left_nav">
+    <div class="caidan">
+        <img (click)="toggleMenu()" src="images/caidan.png">
+    </div>
+    <ul class="leftNav" *ngIf="menus">
+        <!--1级菜单-->
+        <li *ngFor="#menu_1 of menus" class="one"  [class.active] = "menu_1.active"  >
+            <span (click)="onMenuClick(menu_1)" >
+                <a class="icon" href="javascript:void(0)"><img src="{{menu_1.imageURL}}"></a>
+                <a class="wenzi" href="javascript:void(0)">{{menu_1.title}}</a>
+                <a class="button" href="javascript:void(0)"><img src="images/zhankai.png"></a>
+            </span>
+
+            <ul class="two_content">
+                <!--2级菜单-->
+                <li class="two" *ngFor="#menu_2 of menu_1.children" [class.active] = "menu_2.active">
+                    <span (click)="onMenuClick(menu_2)">
+                        <a class="icon left" href="javascript:void(0)"><img src="{{menu_2.imageURL}}"></a>
+                        <a href="javascript:void(0)">{{menu_2.title}}</a>
+                    </span>
+                    <ul class="three_content">
+                        <!--3级菜单-->
+                        <li class="three" *ngFor="#menu_3 of menu_2.children" (click)="onMenuClick(menu_3)" >
+                            <a href="javascript:void(0)">{{menu_3.title}}</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+
+
+</div>

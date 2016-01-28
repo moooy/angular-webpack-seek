@@ -1,0 +1,32 @@
+[
+  {
+    "id": "add",
+    "name": "add",
+    "imageUrl": "images/tianjia.png",
+    "description": null
+  },
+  {
+    "id": "update",
+    "name": "update",
+    "imageUrl": "images/banji.png",
+    "description": null
+  },
+  {
+    "id": "remove",
+    "name": "remove",
+    "imageUrl": "images/shanchu.png",
+    "description": null
+  },
+  {
+    "id": "selectAll",
+    "name": "selectAll",
+    "imageUrl": "images/daorubiaoge.png",
+    "description": null
+  },
+  {
+    "id": "selectFilter",
+    "name": "selectFilter",
+    "imageUrl": "images/daochubiaoge.png",
+    "description": null
+  }
+]

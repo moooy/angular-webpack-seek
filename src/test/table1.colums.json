@@ -1,0 +1,50 @@
+[
+  {
+    "field": "id",
+    "title": "编号"
+  },
+  {
+    "field": "original_id",
+    "title": "原编号"
+  },
+  {
+    "field": "no",
+    "title": "序号"
+  },
+  {
+    "field": "ename",
+    "title": "英文名称"
+  },
+  {
+    "field": "original_ename",
+    "title": "原英文名称"
+  },
+  {
+    "field": "cname",
+    "title": "中文名称"
+  },
+  {
+    "field": "original_cname",
+    "title": "原中文名称"
+  },
+  {
+    "field": "edescription",
+    "title": "英文描述"
+  },
+  {
+    "field": "datatype",
+    "title": "数据类型"
+  },
+  {
+    "field": "category",
+    "title": "分类"
+  },
+  {
+    "field": "precision_int",
+    "title": "精度（整数）"
+  },
+  {
+    "field": "precision_float",
+    "title": "精度（小数）"
+  }
+]

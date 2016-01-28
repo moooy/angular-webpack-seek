@@ -1,0 +1,22 @@
+<div class="modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="ue_addkuang">
+        <div class="addkuang_head">
+            <img class="add_icon" src="images/add.png">
+            <span class="biaoti">数据修改</span>
+            <img class="close_icon" src="images/close.png" data-dismiss="modal">
+        </div>
+        <div class="addkuang_content">
+            <ul class="add_neirong" >
+                <li class="one" *ngFor="#key of keys">
+                    <span class="mingcheng">{{key}}</span>
+                    <span class="bitianxiang">*</span>
+                    <input type="input" [(ngModel)]="contents[key]">
+                </li>
+            </ul>
+        </div>
+        <div class="ue_button">
+            <button class="queding" (click) = "onsubmit()">确定</button>
+            <button class="quxiao" data-dismiss="modal">取消</button>
+        </div>
+    </div>
+</div>

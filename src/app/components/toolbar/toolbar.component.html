@@ -1,0 +1,25 @@
+<div >
+    <div class="ue_toolbar">
+      <div class="tool_content">
+          <div *ngFor="#toolbar of toolbarOpinion">
+               <div class="tools">
+                    <a href="javascript:void(0);" (click)="action(toolbar.id)"  *ngIf="toolbar.id !='selectFilter'"><img [src]="toolbar.imageUrl"></a>
+               </div>
+          </div>
+          <div *ngFor="#toolbar of toolbarOpinion">
+               <div class="search_content" *ngIf="toolbar.id =='selectFilter'">
+                    <a class="search_icon" href="javascript:void(0);" (click)="action(toolbar.id)"><img src="images/search.png"></a>
+                    <div class="search">
+                         <input type="text" placeholder="请输入搜索内容" [(ngModel)]="searchText">
+                         <a class="xiala" (click)="exactSearch()" href="javascript:void(0);"><img src="images/search_jiantou.png"></a>
+                         <span class="line"><img src="images/search_line.png" ></span>
+                    </div>
+               </div>
+          </div>
+      </div>
+      <div class="zhankai" [ngClass]="{active: isActive}">
+           <a class="button" href="javascript:void(0);" (click)="exactsearch()">查&nbsp;&nbsp;询</a>
+           <span class="chushui" *ngFor="#opinion of searchOpinion">{{opinion.label}}：&nbsp;<input [(ngModel)]="searchCondition[opinion.label]">&nbsp;&nbsp;—&nbsp;&nbsp;<input [(ngModel)]= "searchCondition[opinion.label]">&nbsp;&nbsp;{{opinion.unit}}</span>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,108 @@
+[
+  {
+    "field": "state",
+    "checkbox": "true"
+  },
+  {
+    "pk": true,
+    "show": true,
+    "field": "id",
+    "title": "编号"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "original_id",
+    "title": "原编号"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "no",
+    "title": "序号"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "ename",
+    "title": "英文名称"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "original_ename",
+    "title": "原英文名称"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "cname",
+    "title": "中文名称"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "original_cname",
+    "title": "原中文名称"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "edescription",
+    "title": "英文描述"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "datatype",
+    "title": "数据类型"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "category",
+    "title": "分类"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "precision_int",
+    "title": "精度（整数）"
+  },
+  {
+    "pk": false,
+    "show": true,
+    "field": "precision_float",
+    "title": "精度（小数）"
+  },
+  {
+    "pk": false,
+    "show": false,
+    "field": "c_time",
+    "title": "创建时间"
+  },
+  {
+    "pk": false,
+    "show": false,
+    "field": "c_user_id",
+    "title": "创建用户"
+  },
+  {
+    "pk": false,
+    "show": false,
+    "field": "m_time",
+    "title": "修改时间"
+  },
+  {
+    "pk": false,
+    "show": false,
+    "field": "m_user_id",
+    "title": "修改用户"
+  },
+  {
+    "pk": false,
+    "show": false,
+    "field": "bz",
+    "title": "备注"
+  }
+]

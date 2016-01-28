@@ -1,0 +1,13 @@
+<div class="ue_top_nav">
+   <div class="left">
+      <div class="biaoshi">
+         <a class="logo" href=""><img src="images/logo.png"></a>
+         <span class="pingtai">供热计量平台</span>
+      </div>
+      <div class="nav_content" >
+         <a href="javascript:void(0)"  *ngFor="#nav of navigatorData"  [routerLink]="[nav.routeName]"  (click)="onClick(nav)" >
+           {{nav.title}}
+         </a>
+      </div>
+   </div>
+</div>

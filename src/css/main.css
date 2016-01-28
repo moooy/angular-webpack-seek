@@ -1,0 +1,14 @@
+html,body{
+    height: 100%;
+}
+.middle-section.collapse-menu .menu-container .ue_left_nav  .leftNav .two_content,
+.middle-section.collapse-menu .menu-container .ue_left_nav .leftNav .wenzi,
+.middle-section.collapse-menu .menu-container .ue_left_nav .leftNav .button{
+    display: none !important;
+}
+.middle-section.collapse-menu  .main-container{
+    left: 60px!important;
+}
+.middle-section.collapse-menu .menu-container ,.middle-section.collapse-menu .menu-container .ue_left_nav {
+    width: 60px!important;
+}
